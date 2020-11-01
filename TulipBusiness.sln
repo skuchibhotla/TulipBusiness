@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TulipBusiness", "TulipBusiness\TulipBusiness.csproj", "{8ECE0E61-E536-4B8C-A3F9-A342C553511C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TulipBusinessTest", "TulipBusinessTest\TulipBusinessTest.csproj", "{3E5A215F-005B-41F8-856D-757F18AAE861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ECE0E61-E536-4B8C-A3F9-A342C553511C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECE0E61-E536-4B8C-A3F9-A342C553511C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECE0E61-E536-4B8C-A3F9-A342C553511C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECE0E61-E536-4B8C-A3F9-A342C553511C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5A215F-005B-41F8-856D-757F18AAE861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5A215F-005B-41F8-856D-757F18AAE861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5A215F-005B-41F8-856D-757F18AAE861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5A215F-005B-41F8-856D-757F18AAE861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7EE42E6-11BC-444F-AC92-1F243446EBAF}
+	EndGlobalSection
+EndGlobal
