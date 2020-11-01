@@ -22,5 +22,16 @@ namespace TulipBusiness
 
             return salesAmount;
         }
+
+        public decimal GetTulipMonthlySales(int month, int year)
+        {
+            decimal salesAmount = _tulipRepository.GetTulipMonthlySales(month, year);
+            if(salesAmount == 0)
+            {
+                throw new Exception("No sales found.");
+            }
+
+            return salesAmount;
+        }
     }
 }

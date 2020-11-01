@@ -7,6 +7,6 @@ namespace TulipBusiness
     public interface ITulipRepository
     {
         decimal GetTulipYearSales(int year);
-        decimal GetTulipMonthlySales(int year);
+        decimal GetTulipMonthlySales(int month, int year);
     }
 }

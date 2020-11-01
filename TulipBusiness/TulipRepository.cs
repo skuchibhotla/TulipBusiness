@@ -6,7 +6,7 @@ namespace TulipBusiness
 {
     public class TulipRepository : ITulipRepository
     {
-        public decimal GetTulipMonthlySales(int year)
+        public decimal GetTulipMonthlySales(int month, int year)
         {
             throw new NotImplementedException();
         }
